@@ -1,0 +1,831 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JOSHIANA 7.0</title>
+	<meta name="description" content="Joshiana 7.0 is a national fest organised by the department of computer science at st joseph engineering college, mangaluru" />
+	<meta name="keywords" content="joshiana 7.0, it fest in joseph" />
+	
+	<!-- Normalize -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- Owl -->
+	<link rel="stylesheet" type="text/css" href="css/owl.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css">
+	<!-- Main style -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>	
+	<div class="preloader text-center">
+		<img src="img/loader.gif" alt="Preloader image">
+	</div>
+		
+	<div style="position:fixed; z-index:25874; bottom:10%; right:2%; text-align:center; padding:10px;" class="btn-round">
+		<a id="start_audio" data-tooltip-right="PLAY AUDIO" ><img src="img/nav_stop_player.png" width="50" height="50" /></a>
+		<a id="stop_audio"  data-tooltip-right="STOP PLAYING AUDIO" ><img src="img/eq.gif" width="50" height="50" /></a>
+	</div>
+	
+	<nav class="navbar" style="background: #1d3344;">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#" id="top_logo"><h2 class="logo" style="color:#ffffff;">Joshiana 7.0</h2></a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right main-nav" style="margin-top:10px;">
+					<li><a href="#intro">INTRO</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#event">EVENTS</a></li>
+					<li><a href="#register">REGISTER</a></li>
+					<li><a href="#shedule">SCHEDULE</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	
+	<div id="snow"></div>
+	
+	<header id="intro">
+		<div class="container">
+			<div class="table">
+				<div class="header-text">
+					<div class="row">
+						<img src="img/sjec-logo.png" />
+						<br>
+						<br>
+						<div class="col-md-12 text-center">
+							<h3 class="white" id="timer_heading">TECHNOCRATS <br>PRESENTS</h3>
+							<br>
+							<img src="img/logo.png" width="100" />
+							<h1 class="white logo" id="timer_heading">Joshiana 7.0</h1>
+							<p style="color:#ffffff; font-size:large;">A NATIONAL LEVEL IT FEST ORGANISED <br> BY THE DEPARTMENT OF COMPUTER SCIENCE</p>
+							<p style="color:#ffffff; font-size:large;">28 AND 29 SEPTEMBER 2016</p>
+						</div>
+						
+						<div class="col-md-12 text-center">
+							<br>
+							<h3 class="white" id="timer_heading">EVENT STARTS IN</h3>
+							<h1><div id="time" class="logo" style="color:#fff;"></div></h1>
+						</div>
+						
+						<div class="col-md-12 text-center" id="banner" style="display:none;">
+							<h1 class="logo" style="color:#ffffff;">Joshiana 7.0</h1>
+							<h1 class="logo" style="color:#fff;">"Discover an open source world"</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section id="about" class="section gray-bg">
+		<div class="container">
+			<div class="row text-center title">
+				<h2><b>ABOUT</b></h2>
+				<hr class="primary">
+			</div>
+			<br><br>
+			<div class="row text-center">
+				<div class="col-md-6" style="text-align:center;">
+					<h3><span class="label label-default" style="background: #1d3344;">About Event</span></h3>
+					<p style="text-align: justify; padding:10px;">
+						Joshiana 7.0 is back with suffiet of events ranging from programming contests to 
+						managerial challenges. Activate those grey-cells, put on thinking caps and gear up
+						to the challenges of your technical expertise. With an array of electrifying events spread
+						over 2 days to stimulate your cerebral senses that will make you yearn for more, you
+						will definitely want to be a  part of this. If you are thinking of skipping it, do 
+						come to your senses and attend Joshiana 7.0 to discover an open source world.
+					</p>  
+				</div>  
+
+				<div class="col-md-6" style="text-align:center;">
+					<h3><span class="label label-default" style="background: #1d3344;">About College</span></h3>
+					<p style="text-align: justify; padding:10px;">
+						SJEC is affiliated to Visvesvaraya Technological University, Belgaum, Karnataka 
+						State, and is recognized by the All India Council for Technical Education (AICTE), 
+						New Delhi.Established in 2002, the College offers top class education in Engineering,
+						Business Administration and Computer Applications at UG, PG and Research levels. 
+						It has well qualified staff, state of the art laboratories and all facilities. 
+						Presently about 2300 students are studying in the College.
+					</p>  
+				</div>  
+			</div>
+
+			<br><br>
+			<div>
+				<div class="row text-center title">
+					<div class="col-md-4" style="text-align:center; padding: 50px;">
+						<h2><b>10</b></h3>
+						<h3>EVENTS</h3>
+					</div>  
+					<div class="col-md-4" style="text-align:center; padding: 50px;">
+						<h2><b>100+</b></h3>
+						<h3>PARTICIPANTS</h3>
+					</div>  
+					<div class="col-md-4" style="text-align:center; padding: 50px;">
+						<h2><b>10+</b></h3>
+						<h3>COLLEGES</h3>
+					</div>   
+				</div>
+				<div class="row text-center title">
+					<div class="col-md-12" style="text-align:center; padding: 50px;">
+						<img src="img/champions.gif"></img>
+						<h2><b>1</b></h3>
+						<h3>CHAMPION</h3>
+					</div>  
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="event" class="section">
+		<div class="container">
+			<div class="row text-center title">
+				<h2><b>EVENTS</b></h2>
+				<hr class="primary">
+			</div>
+			<div class="col-md-12 text-center" style="text-align:center;">
+				<div class="col-md-6">
+					<div style="padding:10px;">
+						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+							<div class="flipper">
+								<div class="front">
+									<span class="name">Steganography <br> (CODING)</span>
+								</div>
+								<div class="back">
+									<h4><u><b>CODING</b></u></h4>
+									<br><kbd>RULES</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. </b>Number of participant: 1</li>
+										<li class="list-group-item"><b>2. </b>Details of the round will be disclosed on the spot</li>
+										<li class="list-group-item"><b>3. </b>Programming languages: C, C++, JAVA</li>
+										<li class="list-group-item"><b>4. </b>Platform: Windows 7/Fedora</li>
+										<li class="list-group-item"><b>5. </b>Judges decision will be the final verdict</li>
+									</ul>
+									<kbd>EVENT HEADS</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. NISHMITHA J: +91 9535281029</b></li>
+										<li class="list-group-item"><b>2. TINDU ALEX: +91 9513437818</b></li>
+									</ul>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<div style="padding:10px;">
+						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+							<div class="flipper">
+								<div class="front">
+									<span class="name">Delineation <br> (WEB DESIGN)</span>
+								</div>
+								<div class="back">
+									<h4><u><b>WEB DESIGN</b></u></h4>
+									<br><kbd>RULES</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. </b>Number of participant: 1</li>
+										<li class="list-group-item"><b>2. </b>Details of the round will be disclosed on the spot</li>
+										<li class="list-group-item"><b>3. </b>Knowledge possession: web page designing</li>
+										<li class="list-group-item"><b>4. </b>Softwares: Adobe Dreamviewer, Adobe Flash, Adobe Photoshop, bootstrap(optional)</li>
+										<li class="list-group-item"><b>5. </b>Platform: Windows 7</li>
+										<li class="list-group-item"><b>6. </b>Required elements will be provided</li>		
+										<li class="list-group-item"><b>7. </b>Judges decision will be the final verdict</li>
+									</ul>
+									<kbd>EVENT HEADS</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. MR LIKITH SAI: +91 8861346757</b></li>
+										<li class="list-group-item"><b>2. MS KEERTHANA SHETTY: +91 8861482309</b></li>
+									</ul>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<div style="padding:10px;">
+						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+							<div class="flipper">
+								<div class="front text-center">
+									<span class="name">Exasperation to the Hilt <br> (TREASURE HUNT)</span>
+								</div>
+								<div class="back">
+									<h4><u><b>TREASURE HUNT</b></u></h4>
+									<br><kbd>RULES</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. </b>Number of participants: 2 [ 1 BOY + 1 GIRL ] </li> 
+										<li class="list-group-item"><b>2. </b>Details of the round will be disclosed on the spot</li>
+										<li class="list-group-item"><b>3. </b>Participants need to be quick witted and active physically</li>									
+										<li class="list-group-item"><b>4. </b>Judges decision will be the final verdict</li>
+									</ul>
+									<kbd>EVENT HEADS</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. MR JOHNSON EDBURG DSOUZA: +91 7795601008</b></li>
+										<li class="list-group-item"><b>2. MR HERALD DSOUZA: +91 3574236952</b></li>
+									</ul>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<div style="padding:10px;">
+						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+							<div class="flipper">
+								<div class="front">
+								  <span class="name">How nonplussed can you get? <br> (IT PARLIAMENT)</span>
+								</div>
+								<div class="back">
+									<h4><u><b>IT PARLIAMENT</b></u></h4>
+									<br><kbd>RULES</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. </b>Number of participants: 2</li>
+										<li class="list-group-item"><b>2. </b>Skill possession:   Communication skill, Time management, Technical and non-technical skills</li>
+										<li class="list-group-item"><b>3. </b>Details of the round will be disclosed on the spot</li>
+										<li class="list-group-item"><b>4. </b>Judges decision will be the final verdict</li>
+									</ul>
+									<kbd>EVENT HEADS</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. MS MEGHA SHENOY: +91 9482798238</b></li>
+										<li class="list-group-item"><b>2. MS PRATHIKSHA: +91 8105781924</b></li>
+									</ul>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<div style="padding:10px;">
+						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+							<div class="flipper">
+								<div class="front">
+								  <span class="name">Get Gobsmacked! <br> (IT QUIZ)</span>
+								</div>
+								<div class="back">
+									<h4><u><b>IT QUIZ</b></u></h4>
+									<br><kbd>RULES</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. </b>Number of participants: 2</li>
+										<li class="list-group-item"><b>2. </b>Details of the round will be disclosed on the spot</li>
+										<li class="list-group-item"><b>3. </b>Skill possession: Excellent decision making skills, Knowledge of current technical/non-technical issues, IT sectors</li>
+										<li class="list-group-item"><b>4. </b>Quiz Master's decision is the final verdict</li>
+									</ul>
+									<kbd>EVENT HEADS</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. MS NUZHATUSSABA: +91 9008498668</b></li>
+										<li class="list-group-item"><b>2. MS SWETHA SHENOY: +91 9845935159</b></li>
+									</ul>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<div style="padding:10px;">
+						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+							<div class="flipper">
+								<div class="front">
+								  <span class="name">End Up Stupefied <br> (BEST IT MANAGER)</span>
+								</div>
+								<div class="back">
+									<h4><u><b>BEST IT MANAGER</b></u></h4>
+									<br><kbd>RULES</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. </b>Number of participant: 1</li>
+										<li class="list-group-item"><b>2. </b>Details of the round will be disclosed on the spot</li>
+										<li class="list-group-item"><b>3. </b>Participants cannot take part in any other event except <b>Inquivesta</b></li>
+										<li class="list-group-item"><b>4. </b>Judges decision will be the final verdict</li>
+									</ul>
+									<kbd>EVENT HEADS</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. MS VINAYA S: +91 9591293416</b></li>
+										<li class="list-group-item"><b>2. MS PRARTHANA K: +91 9538277753</b></li>
+									</ul>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<div style="padding:10px;">
+						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+							<div class="flipper">
+								<div class="front">
+								  <span class="name">Belaboured IT <br> (IT TECH HOST)</span>
+								</div>
+								<div class="back">
+									<h4><u><b>IT TECH HOST</b></u></h4>
+									<br><kbd>RULES</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. </b>Number of participant: 1</li>
+										<li class="list-group-item"><b>2. </b>Participant must get a smartphone capable of video recording</li>
+										<li class="list-group-item"><b>3. </b>Details of the round will be disclosed on the spot</li>
+										<li class="list-group-item"><b>4. </b>Judges decision will be the final verdict</li>
+									</ul>
+									<kbd>EVENT HEADS</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. MS NIDHI TALAK: +91 9673547781</b></li>
+										<li class="list-group-item"><b>2. MS DEEKSHA SHETTY: +91 9964732159</b></li>
+									</ul>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<div style="padding:10px;">
+						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+							<div class="flipper">
+								<div class="front">
+								  <span class="name">Inquivesta <br> (CULTURALS)</span>
+								</div>
+								<div class="back">
+									<h4><u><b>CULTURALS</b></u></h4>
+									<br><kbd>RULES</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. </b>Theme: Time, Dream and Current Affairs</li>
+										<li class="list-group-item"><b>2. </b>Time limit: 7 mins + 1 min</li>
+										<li class="list-group-item"><b>3. </b>To achieve overalls- All participants must participate</li>
+										<li class="list-group-item"><b>4. </b>Floor needs to be tidy. Hence do not use breakable items, fire, water or inflammable items</li>
+										<li class="list-group-item"><b>5. </b>Be well prepared beforehand. No place/time for practice will be provided</li>									
+										<li class="list-group-item"><b>6. </b>Constraints: Mime, vulgarity and religious aspects are not allowed</li>
+										<li class="list-group-item"><b>7. </b>Judges decision will be the final verdict</li>
+									</ul>
+									<kbd>EVENT HEADS</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. MS MONISHA SONALIYA PINTO: +917338214319</b></li>
+										<li class="list-group-item"><b>2. MS JASMINE FRIEDA MONTEIRO: +917338090793</b></li>
+									</ul>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<div style="padding:10px;">
+						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+							<div class="flipper">
+								<div class="front">
+								  <span class="name">Conglomeration <br> (MEGA EVENT)</span>
+								</div>
+								<div class="back">
+								  <h4><u><b>MEGA EVENT</b></u></h4>
+								  <br><kbd>RULES</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. </b>Number of participants: 2</li>
+										<li class="list-group-item"><b>2. </b>Details of the round will be disclosed on the spot</li>
+										<li class="list-group-item"><b>3. </b>Skill tested: Analytical and logical thinking, technical and non technical skills</li>									
+										<li class="list-group-item"><b>4. </b>Judges decision will be the final verdict</li>
+									</ul>
+									<kbd>EVENT HEADS</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. MR JOSEPH PINTO: +91 8867501644</b></li>
+										<li class="list-group-item"><b>2. MS SOUJANYA K: +91 9400440189</b></li>
+									</ul>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-6">
+					<div style="padding:10px;">
+						<div class="flip-container text-center" ontouchstart="this.classList.toggle('hover');">
+							<div class="flipper">
+								<div class="front">
+								  <span class="name">Assemblage <br> (APP DEVELOPMENT)</span>
+								</div>
+								<div class="back">
+									<h4><u><b>APP DEVELOPMENT</b></u></h4>
+									<br><kbd>RULES</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. </b>Number of participant: 1</li>
+										<li class="list-group-item"><b>2. </b>Skill possession: android app development</li>
+										<li class="list-group-item"><b>3. </b>Software: eclipse</li>
+										<li class="list-group-item"><b>4. </b>Platform: Windows 7</li>									
+										<li class="list-group-item"><b>5. </b>Judges decision will be the final verdict</li>
+									</ul>
+									<kbd>EVENT HEADS</kbd>
+									<ul class="list-group" style="margin: 10px; text-align:left;">
+										<li class="list-group-item"><b>1. MR JOEL MARTIS: +91 8050049046</b></li>
+										<li class="list-group-item"><b>2. MR VIKRANTH ALVA: +91 8553350625</b></li>
+									</ul>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="register" class="section gray-bg">
+		<div class="container">
+			<div class="row text-center title">
+				<h2><b>REGISTER</b></h2>
+				<hr class="primary">
+			</div>
+
+			<br><br>
+
+			<div class="col-md-12 text-center" style="text-align:center;">
+				<p style="padding:10px;" class="text-center">
+					<b>Enter the details for registration.</b>
+				</p>  
+			</div>
+			
+			<form method="POST" id="team_register" action="php/team_register.php"> 
+				<div class="col-md-4" style="visibility: hidden;">
+					<input placeholder="CODING" type="text" class="textbox_fixed" readonly>
+				</div>  
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="COLLEGE NAME" type="text" name="college_name" style="text-align:center;" required class="textboxinput" width="500">
+				</div>  
+
+				<div class="col-md-4" style="visibility: hidden;">
+					<input placeholder="CODING" type="text" class="textbox_fixed" readonly>
+				</div>   
+
+				<div class="col-md-12" style="text-align:center;">
+					<input placeholder="COLLEGE ADDRESS" type="text" name="college_addr" style="text-align:center;" required class="textareainput" width="500">
+				</div>  
+				
+				<br><br><br><br>
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="CODING" type="text" class="textbox_fixed" readonly>
+				</div>  
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="PARTICIPANT NAME" type="text" name="coding_participant_name" required class="textboxinput" onkeypress='return (event.charCode >= 97 && event.charCode <= 133) || (event.charCode >= 65 && event.charCode <= 97) || event.charCode == 32'>
+				</div>   
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MOBILE NUMBER" type="text" name="coding_participant_no" required class="textboxinput" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="WEBDESIGN" type="text" class="textbox_fixed" readonly>
+				</div>  
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="PARTICIPANT NAME" type="text" name="webdesign_participant_name" required class="textboxinput" onkeypress='return (event.charCode >= 97 && event.charCode <= 133) || (event.charCode >= 65 && event.charCode <= 97) || event.charCode == 32'>
+				</div>   
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MOBILE NUMBER" type="text" name="webdesign_participant_no" required class="textboxinput" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="IT QUIZ ( PARTICIPANT 1 )" type="text" class="textbox_fixed" readonly>
+				</div>  
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="PARTICIPANT NAME" type="text" name="quiz_participant_name" required class="textboxinput" onkeypress='return (event.charCode >= 97 && event.charCode <= 133) || (event.charCode >= 65 && event.charCode <= 97) || event.charCode == 32'>
+				</div>   
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MOBILE NUMBER" type="text" name="quiz_participant_no" required class="textboxinput" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="IT QUIZ ( PARTICIPANT 2 )" type="text" class="textbox_fixed" readonly>
+				</div>  
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="PARTICIPANT NAME" type="text" name="quiz_participant_name" required class="textboxinput" onkeypress='return (event.charCode >= 97 && event.charCode <= 133) || (event.charCode >= 65 && event.charCode <= 97) || event.charCode == 32'>
+				</div>   
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MOBILE NUMBER" type="text" name="quiz_participant_no" required class="textboxinput" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="IT PARLIAMENT ( PARTICIPANT 1 )" type="text" class="textbox_fixed" readonly>
+				</div>  
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="PARTICIPANT NAME" type="text" name="itparliament_participant_name" required class="textboxinput" onkeypress='return (event.charCode >= 97 && event.charCode <= 133) || (event.charCode >= 65 && event.charCode <= 97) || event.charCode == 32'>
+				</div>   
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MOBILE NUMBER" type="text" name="itparliament_participant_no" required class="textboxinput" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="IT PARLIAMENT ( PARTICIPANT 2 )" type="text" class="textbox_fixed" readonly>
+				</div>  
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="PARTICIPANT NAME" type="text" name="itparliament_participant_name" required class="textboxinput" onkeypress='return (event.charCode >= 97 && event.charCode <= 133) || (event.charCode >= 65 && event.charCode <= 97) || event.charCode == 32'>
+				</div>   
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MOBILE NUMBER" type="text" name="itparliament_participant_no" required class="textboxinput" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="TREASURE HUNT ( PARTICIPANT 1 )" type="text" class="textbox_fixed" readonly>
+				</div>  
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="PARTICIPANT NAME" type="text" name="treasurehunter_participant_name_1" required class="textboxinput" onkeypress='return (event.charCode >= 97 && event.charCode <= 133) || (event.charCode >= 65 && event.charCode <= 97) || event.charCode == 32'>
+				</div>   
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MOBILE NUMBER" type="text" name="treasurehunter_participant_no_1" required class="textboxinput" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="TREASURE HUNT ( PARTICIPANT 2 )" type="text" class="textbox_fixed" readonly>
+				</div>  
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="PARTICIPANT NAME" type="text" name="treasurehunter_participant_name_2" required class="textboxinput" onkeypress='return (event.charCode >= 97 && event.charCode <= 133) || (event.charCode >= 65 && event.charCode <= 97) || event.charCode == 32'>
+				</div>   
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MOBILE NUMBER" type="text" name="treasurehunter_participant_no_2" required class="textboxinput" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="APP DESIGN" type="text" class="textbox_fixed" readonly>
+				</div>  
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="PARTICIPANT NAME" type="text" name="appdesign_participant_name" required class="textboxinput" onkeypress='return (event.charCode >= 97 && event.charCode <= 133) || (event.charCode >= 65 && event.charCode <= 97) || event.charCode == 32'>
+				</div>   
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MOBILE NUMBER" type="text" name="appdesign_participant_no" required class="textboxinput" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="BEST IT MANAGER" type="text" class="textbox_fixed" readonly>
+				</div>  
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="PARTICIPANT NAME" type="text" name="bestitmanager_participant_name" required class="textboxinput" onkeypress='return (event.charCode >= 97 && event.charCode <= 133) || (event.charCode >= 65 && event.charCode <= 97) || event.charCode == 32'>
+				</div>   
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MOBILE NUMBER" type="text" name="bestitmanager_participant_no" required class="textboxinput" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="IT TECH HOST" type="text" class="textbox_fixed" readonly>
+				</div>  
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="PARTICIPANT NAME" type="text" name="ittechhost_participant_name" required class="textboxinput" onkeypress='return (event.charCode >= 97 && event.charCode <= 133) || (event.charCode >= 65 && event.charCode <= 97) || event.charCode == 32'>
+				</div>   
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MOBILE NUMBER" type="text" name="ittechhost_participant_no" required class="textboxinput" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MEGA EVENT ( PARTICIPANT 1 )" type="text" class="textbox_fixed" readonly>
+				</div>  
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="PARTICIPANT NAME" type="text" name="megaevent_participant_name" required class="textboxinput" onkeypress='return (event.charCode >= 97 && event.charCode <= 133) || (event.charCode >= 65 && event.charCode <= 97) || event.charCode == 32'>
+				</div>   
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MOBILE NUMBER" type="text" name="megaevent_participant_no" required class="textboxinput" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MEGA EVENT ( PARTICIPANT 2 )" type="text" class="textbox_fixed" readonly>
+				</div>  
+				
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="PARTICIPANT NAME" type="text" name="megaevent_participant_name" required class="textboxinput" onkeypress='return (event.charCode >= 97 && event.charCode <= 133) || (event.charCode >= 65 && event.charCode <= 97) || event.charCode == 32'>
+				</div>   
+
+				<div class="col-md-4" style="text-align:center;">
+					<input placeholder="MOBILE NUMBER" type="text" name="megaevent_participant_no" required class="textboxinput" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+				</div>
+								
+				<div class="col-md-12" style="text-align:center;">
+						<br><br>
+						<h4>Do you want accomodation ?</h4>
+						<input type="radio" name="team_accomodation" id="optionsRadios1" value="YES" checked>YES</label>
+						&nbsp; &nbsp;
+						<input type="radio" name="team_accomodation" id="optionsRadios1" value="NO">NO</label>
+				</div>
+				
+				<div class="col-md-12" style="text-align:center;">	
+					<br><br>
+					<input type="submit" value="SUBMIT" class="btn green">
+				</div>
+			</form>
+	</section>
+
+	<section id="shedule" class="section">
+		<div class="container">
+			<div class="row text-center title">
+				<h2><b>SCHEDULE</b></h2>
+				<hr class="primary">
+
+				<div class="row text-center title">
+					<div style="padding:10px;">
+						<div class="col-md-6 text-center">
+							<br><h3>DAY 1</h3><br>
+							<ul class="list-group" style="margin: 10px; text-align:left;">
+								<li class="list-group-item"><span class="badge">08:00 - 9:00</span> REGISTRATION</li>
+								<li class="list-group-item"><span class="badge">09:00 - 11:00</span> INAUGRAL</li>
+								<li class="list-group-item"><span class="badge">11:30 - 11:45</span><br><span class="badge">11:45 - 13:30</span><br><span class="badge">14:00 - 15:00</span><br><span class="badge">15:00 - 16:00</span>BEST IT MANAGER</li>
+								<li class="list-group-item"><span class="badge">11:30 - 12:30</span><br><span class="badge">14:00 - 14:30</span> IT TECH HOST</li>
+								<li class="list-group-item"><span class="badge">11:30 - 12:45</span><br><span class="badge">13:30 - 15:00</span><br><span class="badge">15:00 - 16:30</span> IT PARLIAMENT</li>
+								<li class="list-group-item"><span class="badge">11:30 - 12:15</span><br><span class="badge">12:45 - 14:15</span><br><span class="badge">14:30 - 16:00</span> IT QUIZ</li>
+								<li class="list-group-item"><span class="badge">11:30 - 12:30</span><br><span class="badge">14:30 - 15:45</span> CODING</li>
+								<li class="list-group-item"><span class="badge">11:30 - 12:30</span><br><span class="badge">14:00 - 15:00</span> WEB DESIGNING</li>
+								<li class="list-group-item"><span class="badge">12:00 - 13:00</span> APP DEVELOPMENT</li>
+								<li class="list-group-item"><span class="badge">11:30 - 13:00</span><br><span class="badge">14:30 - 16:00</span> TREASURE HUNT</li>
+								<li class="list-group-item"><span class="badge">17:00 ONWARDS</span> CULTURALS</li>
+							</ul>
+						</div>
+						
+						<div class="col-md-6">
+							<br><h3>DAY 2</h3><br>
+							<ul class="list-group" style="margin: 10px; text-align:left;">
+								<li class="list-group-item"><span class="badge">08:00 - 09:00</span> BREAKFAST</li>
+								<li class="list-group-item"><span class="badge">09:30 - 10:00</span><br><span class="badge">11:30 - 12:10</span><br><span class="badge">15:00 - 16:00</span> BEST IT MANAGER</li>
+								<li class="list-group-item"><span class="badge">10:05 - 11:05</span> IT TECH HOST</li>
+								<li class="list-group-item"><span class="badge">09:00 - 10:00</span> IT PARLIAMENT</li>
+								<li class="list-group-item"><span class="badge">09:30 - 10:15</span><br><span class="badge">11:00 - 12:30</span> CODING</li>
+								<li class="list-group-item"><span class="badge">10:00 - 13:00</span> WEB DESIGNING</li>
+								<li class="list-group-item"><span class="badge">09:00 - 13:00</span> APP DEVELOPMENT</li>
+								<li class="list-group-item"><span class="badge">10:30 - 13:00</span> TREASURE HUNT</li>
+								<li class="list-group-item"><span class="badge">16:15 ONWARDS</span> VALEDICTORY</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="section gray-bg">
+		<div class="container">
+			<div class="row text-center title">
+				<h2><b>CONTACT</b></h2>
+				<hr class="primary">
+			</div>
+			<br><br>
+
+			<div class="row text-center">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p>Have any queries? Always free to Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                </div>
+                <br><br>
+                <br><br>
+            	<br><br>
+                <div class="col-lg-12 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact" data-sr-id="10" style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; "></i>
+                    <p><a href="mailto:your-email@your-domain.com">joshiana@sjec.ac.in</a></p>
+                </div>
+            </div>	
+
+			<br><br>
+				
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="team-member text-center">
+						<h4>MS ANUSHREE RAJ</h4>
+						<p class="text-muted">HOD, MCA<br>+91 9591871812</p>
+					</div>
+				</div>
+				
+				<div class="col-sm-4">
+					<div class="team-member text-center">
+						<h4>MR BIKRAMJIT SINGH</h4>
+						<p class="text-muted">STAFF COORDINATOR <br> +91 9611140725</p>
+					</div>
+				</div>
+				
+				<div class="col-sm-4">
+					<div class="team-member text-center">
+						<h4>MS SADHANA KUMBLE</h4>
+						<p class="text-muted">STAFF COORDINATOR <br> +91 8105983070</p>
+					</div>
+				</div>
+				
+				<div class="col-sm-4">
+					<div class="team-member text-center">
+						<hr class="primary">
+						<h4>MS PRITHVI V SHET</h4>
+						<p class="text-muted">PRESIDENT <br> +91 8147083249</p>
+					</div>
+				</div>
+												
+				<div class="col-sm-4">
+					<div class="team-member text-center">
+						<hr class="primary">
+						<h4>MS SAMARPAN SUVARIS</h4>
+						<p class="text-muted">SECRETARY <br> +91 7406033808</p>
+					</div>
+				</div>
+				
+				<div class="col-sm-4">
+					<div class="team-member text-center">
+						<hr class="primary">
+						<h4>MS VINAYA S</h4>
+						<p class="text-muted">TREASURER <br> +91 9591293416</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- TODO: map section. Here it show to display the map -->
+	<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" height="500" src="https://maps.google.com/maps?hl=en&q=St Joseph Engineering College Vamanjoor,	Mangaluru PIN - 575028  Karnataka,	India&ie=UTF8&t=m&z=17&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">embed google map</a></small></div><div><small><a href="https://googlemapsgenerator.com">embed google maps</a></small></div></iframe>
+
+	<section id="like" class="section gray-bg">
+		<div class="container">
+			<div class="row text-center title">
+				<h2><b>LIKE OUR JOSHIANA PAGE</b></h2>
+				<hr class="primary">
+
+				<br><br>
+				<div class="row">
+					<div class="col-sm-4">
+						<a style="color:#000000;" href="img/ic_action_facebook.png"><img src="img/ic_action_facebook.png" width="150" height="150"/><br>FACEBOOK</a>
+					</div>
+					
+					<div class="col-sm-4">
+						<a style="color:#000000;" href="img/ic_action_twitter.png"><img src="img/ic_action_twitter.png" width="150" height="150"/><br>TWITTER</a>
+					</div>
+					
+					<div class="col-sm-4">
+						<a style="color:#000000;" href="img/ic_action_facebook.png"><img src="img/ic_action_googleplus.png" width="150" height="150"/><br>GOOGLE+</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 text-center-mobile">
+					<h3 class="white"><b>ADDRESS</b></h3>
+					<h5 class="white">ST JOSEPH ENGINEERING COLLEGE</h5>
+					<h5 class="white">VAMANJOOR, MANGALURU</h5>
+					<h5 class="white">DAKSHINA KANNADA - 575028</h5>
+				</div>
+								
+				<div class="col-md-12 text-center-mobile">
+					<br>
+					<br>
+					<h5 class="white">Created by JOSHIANA WEB TEAM</h5>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Holder for mobile navigation -->
+	<div class="mobile-nav">
+		<ul>
+		</ul>
+		<a href="#" class="close-link"><i class="arrow_up"></i></a>
+	</div>
+
+	<!-- Scripts -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/jquery.countdownTimer.js"></script>
+</body>
+
+</html>
